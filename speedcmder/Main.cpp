@@ -172,6 +172,7 @@ void Main()
     Graphics2D::SetBlendState(BlendState::Default);
     Graphics2D::SetSamplerState(SamplerState::ClampPoint);
     RenderTexture render_texture{ Size(WW, WH), Palette::Black };
+    Window::SetTitle(L"speedcmder - Siv3D Game Jam 第12回 テーマ「ブロック」投稿作品");
 
     // font
     FontManager::Register(L"Assets/FFFIXING_5.TTF");
