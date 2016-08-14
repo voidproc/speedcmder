@@ -30,11 +30,8 @@ Siv3D Game Jam 第12回 テーマ「ブロック」の投稿作品です．
 
 ## ダウンロード
 
-#### v1.1（最新）
+#### v1.1
 <https://github.com/voidproc/speedcmder/releases/download/v1.1/speedcmder_1.1.zip> (x86版)
-
-#### v1.0
-<https://github.com/voidproc/speedcmder/releases/download/v1.0/speedcmder_1.0.zip> (x86版)
 
 ## 開発／動作環境
 * Windows 7 SP1 64bit
