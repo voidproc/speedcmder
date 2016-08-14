@@ -156,7 +156,7 @@ private:
 vector<int> makeQ(const int colors, const int n)
 {
     vector<int> ids = { 1,2,3,4,5,6,7 };
-    shuffle(ids.begin(), ids.end(), mt19937());
+    Shuffle(ids);
 
     vector<int> v;
     v.reserve(50);
@@ -172,7 +172,7 @@ void Main()
     Graphics2D::SetBlendState(BlendState::Default);
     Graphics2D::SetSamplerState(SamplerState::ClampPoint);
     RenderTexture render_texture{ Size(WW, WH), Palette::Black };
-    Window::SetTitle(L"speedcmder - Siv3D Game Jam 第12回 テーマ「ブロック」投稿作品");
+    Window::SetTitle(L"speedcmder v1.1 - Siv3D Game Jam 第12回 テーマ「ブロック」投稿作品");
 
     // font
     FontManager::Register(L"Assets/FFFIXING_5.TTF");
@@ -225,7 +225,7 @@ void Main()
             // bg
             Rect(WW, WH).draw({ 0U, 0U, 0U });
 
-            font.draw(L"3 MINUTE SPEED COMMANDER v1.0", { 1, 1+15*0 }, Palette::Gainsboro);
+            font.draw(L"3 MINUTE SPEED COMMANDER v1.1", { 1, 1+15*0 }, Palette::Gainsboro);
             font.draw(L"@voidproc", { 1, 1+15*1 }, Palette::Gainsboro);
 
             if (Input::AnyKeyClicked()) {
